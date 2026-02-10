@@ -1,0 +1,146 @@
+ DOCUMENTATION 
+Star Hunter (Serious Game)
+1. Project Overview
+
+This project is an extension of the Star Hunter game developed in Phase One.
+In Phase Two, the game was modified into a serious educational game that focuses on improving the player’s basic mathematical and logical thinking skills.
+
+The player is required to solve a simple mathematical equation and use the result to predict the position where a star will fall. The game combines learning with real-time interaction and time pressure.
+
+  
+  
+  
+  2. Chosen Learning Skill
+
+The main learning skill targeted in this project is:
+
+Basic arithmetic and logical reasoning
+
+Specifically:
+
+Addition and subtraction at early levels
+
+Multiplication and division at higher levels
+
+Interpreting the result of an equation and making a decision based on it
+
+The player must mentally solve the equation before acting, which encourages active thinking rather than random movement.
+
+  
+  
+  3. How Gameplay Supports Learning
+
+
+
+The learning process is directly integrated into the gameplay:
+
+An equation is displayed on the screen.
+
+The player has a limited thinking time to solve it.
+
+Based on the result, the player predicts the correct column where the star will fall.
+
+After the thinking time ends, the player’s movement is locked.
+
+The star falls according to the correct answer.
+
+This design forces the player to:
+
+Read the equation carefully
+
+Solve it mentally
+
+Make a correct decision under time pressure
+
+Mistakes result in penalties, while correct answers are rewarded, reinforcing the learning objective.
+
+  
+  
+  4. Game Rules and Mechanics
+
+
+
+Controls:
+
+Left / Right Arrow or A / D: Move player (only during thinking time)
+
+Space: Pause / Resume the game
+
+R: Restart the game
+
+Mouse click: Start and Restart buttons
+
+Game Mechanics:
+
+The player can move only during the thinking phase.
+
+Once the timer ends, movement is frozen.
+
+The same equation is repeated if the player fails.
+
+A new equation is generated only after a successful attempt.
+
+     
+     
+     
+     
+     5. Win and Lose Conditions
+
+
+Win Condition:
+
+The player wins by reaching a target score.
+
+Lose Condition:
+
+The player loses when all lives are depleted.
+
+Rewards and Penalties:
+
+Correct answer: Gain points
+
+Incorrect answer or missed star: Lose points and a life
+
+Bonus action when reaching a certain score (increased difficulty and bonus points)
+
+
+
+6. Motivation and Engagement Elements
+
+
+
+To keep the player engaged, the game includes:
+
+Score system
+
+Lives system
+
+Increasing difficulty level
+
+Visual feedback and animations
+
+Sound effects for success and failure
+
+Pause and restart options for better control
+
+These elements encourage replayability and sustained engagement while maintaining the educational goal.
+
+
+
+7. Technical Implementation
+
+
+
+The entire game is implemented using HTML5 Canvas and JavaScript.
+
+The code is modular, with each game component implemented in a separate class.
+
+All user interface elements (buttons, score, timer, messages) are rendered inside the canvas.
+
+The project follows a clear structure separating game logic, input handling, and rendering.
+
+
+
+8. Conclusion
+
+This project successfully transforms a simple arcade-style game into a serious educational game. By combining mathematical problem-solving with interactive gameplay and time-based challenges, the game achieves its learning objective while remaining engaging and enjoyable for the player.

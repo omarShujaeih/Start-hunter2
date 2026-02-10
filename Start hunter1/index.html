@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Star Hunter – Phase 2</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #111;
+    }
+
+    canvas {
+      border: 2px solid #ffffff;
+      background: #000;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="gameCanvas" width="800" height="480"></canvas>
+
+  <script src="js/utils.js"></script>
+  <script src="js/Sound.js"></script>
+  <script src="js/Input.js"></script>
+  <script src="js/Timer.js"></script>
+  <script src="js/Equation.js"></script>
+  <script src="js/Player.js"></script>
+  <script src="js/Star.js"></script>
+  <script src="js/Game.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      Game.start();
+    });
+  </script>
+</body>
+</html>
